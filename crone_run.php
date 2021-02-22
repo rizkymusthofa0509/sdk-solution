@@ -1,5 +1,5 @@
 <?php
-	$get = json_decode(file_get_contents('http://localhost/absensi/json_crone.php'));
+	$get = json_decode(file_get_contents('json.php'));
 	if ($get->status == 200){
 		foreach ($get->data as $data){
 			if ($data->pin!=''){
