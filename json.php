@@ -1,7 +1,7 @@
 <?php 
 
-$IP     = '192.168.5.221';
-$ComKey = '83581';
+$IP     = '192.168.5.221'; //Masukan IP Mesin
+$ComKey = '0'; //Masukan ComKey
 
 	$Connect = fsockopen($IP, "80", $errno, $errstr, 1);
 	if($Connect){
